@@ -9,23 +9,38 @@
 
   <!-- This line is money! It points your HTML to the CSS file. -->
   <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 </head>
 
 <body>
 
-  <header>
-    <h1>Student Bio</h1>
-  </header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <h1 class="navbar-brand">Data Analyst and Psychologist</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+  </nav>
 
   <main class="container">
     <div id="row">
       <div id="col-lg-8">
         <h2 id="bio-name">Arley Schenker</h2>
-        <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+        <img id="bio-image" src="https://placehold.it/200x200" alt="ArleyPic">
       </section>
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+      <p>Welcome to my website! I am a data analyst located in San Francisco, CA. I began my career as a cognitive psychologist, earning a Bachelor's in cognitive science from Carnegie Mellon University and a Master's in psychology from Bucknell University. </p>
     </section>
 
       <div id="col-lg-4">
