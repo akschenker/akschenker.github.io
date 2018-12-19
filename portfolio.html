@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a href="index.html"><h1 class="navbar-brand">Data Analyst and Psychologist</h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+  </nav>
+
+  <main class="container">
+    <br>
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 style="text-align: center">Projects</h1>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-lg-5">
+            <a style="text-align: center" href="https://breezometer-analysis.herokuapp.com/"><h3>Air Quality Dashboard</h3></a>
+            <img src="images/AirQualityGraphs.png" width=100%>
+            <p>
+                In the wake of the Camp Fire earlier this year, some classmates and I created a dashboard that gathers and displays data about air quality and pollutants for cities around the world. The dashboard uses HTML/CSS, d3.js, Leaflet.js, and Chart.js. My major contributions to this project were formatting the homepage using the Bootstrap framework, creating the Graphs page, and creating the City Dashboard page.
+            </p>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5">
+            <a style="text-align: center" href="https://biodiversity-plotly-aks.herokuapp.com/"><h3>Biodiversity Dashboard</h3></a>
+            <img src="images/Biodiversity.png" width=100%>
+            <p>
+                I used public data regarding the biodiversity of the belly button to create a dashboard detailing several aspects of the data. The dashboard was created with Plot.ly and Javascript.
+            </p>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div class="row">
+        <div class="col-lg-5">
+            <a style="text-align: center" href="https://github.com/akschenker/d3-datavis"><h3>US Farmers' Markets Analysis</h3></a>
+            <img src="images/GoodYelpMarkets.png" width=100%>
+            <p>
+                Farmers' markets are some of the most accessible ways to obtain fresh, healthy foods, and several areas in the US do not have access to them. For this reason, some classmates and I performed a series of analyses about farmers' markets in the US. These analyses include their locations, their product offerings, and the types of payment they accept. We also visualized several of these analyses in maps, bar charts, and scatter plots.
+            </p>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5">
+            <a style="text-align: center" href="https://www.akschenker.com/Web-Vis-Dashboard/index.html"><h3>Latitude Data Webpage</h3></a>
+            <img src="images/WeatherWeb.png" width=100%>
+            <p>
+                Using Pandas and Matplotlib, I analyzed public weather data to determine whether latitude was related to any of several weather variables: temperature, humidity, cloudiness, or wind speed. I displayed these scatter plots on four separate web pages, each with their own analysis. I also used Bootstrap to ensure that users can easily navigate between analyses.
+            </p>
+        </div>
+    </div>
+  </main>
+</body>
+</html>
