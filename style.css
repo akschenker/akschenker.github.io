@@ -2,6 +2,11 @@ a {
   color:blue;
 }
 
-.container {
+.container, .container-fluid {
   background-color: lavender;
+  height: 1500px;
+}
+
+ul > a {
+  padding: 8%;
 }
