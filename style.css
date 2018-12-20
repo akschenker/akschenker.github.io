@@ -1,12 +1,31 @@
-a {
-  color:blue;
+a:hover {
+  text-decoration: none;
+  color: gray;
 }
 
-.container, .container-fluid {
+.container {
   background-color: lavender;
   height: 1500px;
 }
 
-ul > a {
-  padding: 8%;
+ul > #main {
+  padding: 5%;
+}
+
+img#footer {
+  width: 4%;
+  padding: 20px;
+}
+
+nav {
+  height: 50px;
+}
+
+.footer {
+  height: 100px;
+}
+
+#mailIcon {
+  border: 10px;
+  border-color: black;
 }

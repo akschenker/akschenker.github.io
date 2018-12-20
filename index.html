@@ -7,27 +7,54 @@
 
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="favicon_package_v0.16/apple-touch-icon.png">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a href="index.html"><h1 class="navbar-brand">Data Analyst and Psychologist</h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="12-18-18resume-SF.pdf">Resume</a>
+        </li>
+      </ul>
+  </nav>
+  
   <main class="container">
+    <br>
+    <br>
+    <br>
     <br>
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
         <h2 id="bio-name">Arley Schenker</h2>
       </div>
     </div>
+    <br>
     <div class="row">
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4" style="left: 4%">
-        <img id="bio-image" src="images/LinkedIn Photo.png" alt="ArleyPic" width=70%>
+      <div class="col-lg-4 col-sm-4"></div>
+      <div class="col-lg-4 col-sm-6" style="left: 5%">
+        <img id="bio-image" src="images/LinkedIn Photo.png" alt="ArleyPic" width=240px>
       </div>
     </div>
     <br>
     <div class="row d-flex justify-content-center">
       <div class="col-lg-6">
+        <p style="text-align: center">
+          Welcome to my website!
+        </p>
         <p>
-          Welcome to my website! I am a data analyst seeking work that will allow me to answer interesting and challenging questions and explore different facets of human behavior. As a former experimental psychologist, I approach data problems with a scientific focus, considering all variables that could affect an outcome. This approach, combined with sophisticated data analytics techniques, often results in comprehensive analyses that people of all backgrounds can follow. I am excited to apply my experience to new industries and problems!
+          I am a data analyst seeking work that will allow me to answer interesting and challenging questions and explore different facets of human behavior. As a former experimental psychologist, I approach data problems with a scientific focus, considering all variables that could affect an outcome. This approach, combined with sophisticated data analytics techniques, often results in comprehensive analyses that people of all backgrounds can follow. I am excited to apply my experience to new industries and problems!
         </p>
       </div>
     </div>
@@ -51,17 +78,31 @@
         <a href="12-18-18resume-SF.pdf" style="text-align: center"><h4>Here's my fancy resume!</h4></a>
         <a href="12-18-18resume-SF.pdf"><img src="images/ResumePhoto.png" width=100%></a>
       </div>
-      <div class="col-lg-5">
-        <h4 style="text-align: center">Here's where you can contact me!</h4></a>
+      <div class="col-lg-5 text-center">
+        <h4>Here's where you can contact me!</h4></a>
         <br>
         <ul style="list-style: none">
-            <a href="mailto:akschenker@gmail.com"><img src="images/gmail.svg" width=10%></a>
-            <a href="https://www.github.com/akschenker"><img src="images/github.svg" width=10%></a>
-            <a href="https://www.linkedin.com/in/arleyschenker"><img src="images/linkedin.svg" width=10%></a>
+            <a id="main" href="mailto:akschenker@gmail.com"><img id="mailIcon" src="images/email.svg" width=10%></a>
+            <a id="main" href="https://www.github.com/akschenker"><img src="images/github.svg" width=10%></a>
+            <a id="main" href="https://www.linkedin.com/in/arleyschenker"><img src="images/linkedin.svg" width=10%></a>
         </ul>
       </div>
     </div>
   </main>
+  <div class="container-fluid">
+    <!-- Copyright -->
+    <div class="footer bg-primary text-center py-3">
+        <div style="color: white">
+          Copyright © Arley Schenker, 2018
+        </div>
+        <!-- Copyright -->
+        <ul class="list-unstyled list-inline">
+            <a href="mailto:akschenker@gmail.com"><img id="footer" src="images/email-white.svg"></a>
+            <a href="https://www.github.com/akschenker"><img  id="footer" src="images/github-white.svg"></a>
+            <a href="https://www.linkedin.com/in/arleyschenker"><img id="footer" src="images/linkedin-white.svg"></a>
+        </ul>
+    </div>
+  </div>
 </body>
 
 </html>
