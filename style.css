@@ -5,7 +5,6 @@ a:hover {
 
 .container {
   background-color: lavender;
-  height: 1500px;
 }
 
 ul > #main {
@@ -18,7 +17,8 @@ img#footer {
 }
 
 nav {
-  height: 50px;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
 }
 
 .footer {
