@@ -33,3 +33,7 @@ nav {
 #SFpic {
   width: 100%;
 }
+
+a.navbar-brand:hover {
+  color: lightblue !important;
+}
