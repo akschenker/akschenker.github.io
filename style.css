@@ -59,6 +59,11 @@ p {
   transition: opacity 500ms, height 500ms;
 }
 
+#WebVis, #FarmMarkets, #biodiv, #air {
+  height: 300px;
+  transition: height 500ms;
+}
+
 #WebVis:hover img, #FarmMarkets:hover img, #biodiv:hover img, #air:hover img {
   overflow: visible;
   width: 100%;
@@ -67,6 +72,10 @@ p {
 #WebVis:hover p, #FarmMarkets:hover p, #biodiv:hover p, #air:hover p {
   opacity: 1;
   height: 150px;
+}
+
+#WebVis:hover, #FarmMarkets:hover, #biodiv:hover, #air:hover {
+  height: 600px;
 }
 
 #bio {
