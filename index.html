@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" href="images/data_favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <script type="text/javascript">
     window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
@@ -17,14 +19,40 @@
 
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="index.html">Arley Schenker: Data Analyst and Psychologist</a>
+    <a class="navbar-brand" href="index.html"><b>ARLEY SCHENKER</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="SchenkerResume.pdf">RESUME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="mailto:akschenker@gmail.com">MAIL</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://www.github.com/akschenker">GITHUB</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/arleyschenker">LINKEDIN</a>
+        </li>
+      </ul>
+  </div>
   </nav>
   
   <main class="container">
     <br>
     <br>
-    <br>
-    <br>
+    <div class="jumbotron bg-secondary text-light mx-auto" id="bio">
+      <h1 class="text-center">Arley Schenker</h1>
+      <h3 class="text-center">Data Analyst and Psychologist</h3>
+      <br>
+      <img id="bio-image" class="mx-auto d-block" src="images/LinkedIn Photo.png" alt="ArleyPic" style="width: 240px">
+      <br>
+      <p class="lead">I am a data analyst with particular strengths in Python and SQL analysis. I studied psychology at Carnegie Mellon University and Bucknell University and pursued additional education in data analytics at UC Berkeley Extension. Given my background in science, I specialize in considering all aspects of a question. Currently Partner Analytics Intern at <a target="_blank" href="https://www.liftopia.com/">Liftopia.</a></p>
+    </div>
+
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
         <h2>Projects</h2>
@@ -33,77 +61,62 @@
     <br>
     <div class="row">
       <div class="col-lg-6 text-center" id="air">
-          <a target="_blank" href="https://breezometer-analysis.herokuapp.com/" ><h3>Air Quality Dashboard</h3></a>
-          <br>
+          <a href="airquality.html" ><h3>Air Quality Dashboard</h3></a>
           <p>
-            In the wake of the Camp Fire earlier this year, some classmates and I created a dashboard that gathers and displays data about air quality and pollutants for cities around the world. The dashboard uses HTML/CSS, d3.js, Leaflet.js, and Chart.js. My major contributions to this project were formatting the homepage using  Bootstrap, creating the Graphs page, and creating the City Dashboard page.
-            </p>
-          <a target="_blank" href="https://breezometer-analysis.herokuapp.com/"><img src="images/AirQualityGraphs.png" width=100%></a>
+              Collected data for and designed graphs and city dashboard pages for an air quality dashboard website.
+          </p>
+          <a href="airquality.html"><img src="images/AirQualityGraphs-crop.png" width=100%></a>
       </div>
       <div class="col-lg-6 text-center" id="biodiv">
-          <a target="_blank" href="https://biodiversity-plotly-aks.herokuapp.com/"><h3>Biodiversity Dashboard</h3></a>
-          <br>
+          <a href="biodiversity.html"><h3>Biodiversity Dashboard</h3></a>
           <p>
-            I used public data regarding the biodiversity of the belly button to create a dashboard detailing several aspects of the data. The dashboard was created with Plot.ly and Javascript. The use of these tools makes the data easily accessible to anyone curious about the bacteria living in their belly buttons.
-            </p>
-          <a target="_blank" href="https://biodiversity-plotly-aks.herokuapp.com/"><img src="images/Biodiversity.png" width=100%></a>
+              Created a dashboard of data regarding the biodiversity of the belly button with Plot.ly and Javascript.
+          </p>
+          <a href="biodiversity.html"><img src="images/Biodiversity-crop.png" width=100%></a>
       </div>
   </div>
   <hr>
   <br>
   <div class="row">
     <div class="col-lg-6 text-center" id="FarmMarkets">
-      <a target="_blank" href="https://github.com/akschenker/d3-datavis"><h3>US Farmers' Markets Analysis</h3></a>
+      <a href="farmersmarkets.html"><h3>US Farmers' Markets Analysis</h3></a>
       <br>
       <p>
-        Farmers' markets are some of the most accessible ways to obtain fresh, healthy foods, and several areas in the US do not have access to them. For this reason, some classmates and I performed a series of analyses about farmers' markets in the US. These analyses include their locations, their product offerings, and the types of payment they accept. We also visualized several of these analyses in maps, bar charts, and scatter plots.
+        With classmates, created a series of analyses and visualizations about farmers' markets in the US.
       </p>
-      <a target="_blank" href="https://github.com/akschenker/d3-datavis"><img src="images/GoodYelpMarkets.png" width=100%></a>
+      <a href="farmersmarkets.html"><img src="images/GoodYelpMarkets-crop.png" width=100%></a>
     </div>
     <div class="col-lg-6 text-center" id="WebVis">
-      <a target="_blank" href="https://www.akschenker.com/Web-Vis-Dashboard/index.html"><h3>Latitude Data Webpage</h3></a>
+      <a href="latitude.html"><h3>Latitude Data Webpage</h3></a>
       <br>
       <p>
-        Using Pandas and Matplotlib, I analyzed public weather data to determine whether latitude was related to any of several weather variables: temperature, humidity, cloudiness, or wind speed. I displayed these scatter plots on four separate web pages, each with their own analysis. I also used Bootstrap to ensure that users can easily navigate between analyses.
+        Analyzed public weather data to determine whether latitude was related to temperature, humidity, cloudiness, or wind speed.
       </p>
-      <a target="_blank" href="https://www.akschenker.com/Web-Vis-Dashboard/index.html"><img src="images/WeatherWeb.png" width=100%></a>
+      <a href="latitude.html"><img src="images/WeatherWeb-crop.png" width=100%></a>
     </div>
   </div>
   <br>
   <br>
-    <div class="row" id="bio">
-      <div class='col-lg-2'></div>
-      <div class="col-lg-4 col-sm-6">
-        <img id="bio-image" src="images/LinkedIn Photo.png" alt="ArleyPic" width=240px>
-      </div>
-      <div class="col-lg-6 col-sm-6">
-        <h3>Arley Schenker</h3>
-        <br>
-        <p>
-          I am a data analyst currently working at <a target="_blank" href="https://www.liftopia.com/">Liftopia.</a> I studied psychology at Carnegie Mellon University and Bucknell University and pursued additional education in data analytics at UC Berkeley Extension. Given my background in science, I specialize in considering all aspects of a question, and I have particular strengths in Python and SQL analysis.
-        </p>
-      </div>
-    </div>
-    <br>
+  <br>
   </main>
-  <div class="container-fluid">
+  <!-- <div class="container-fluid"> -->
     <!-- Copyright -->
-    <div class="footer bg-primary text-center py-3">
-        <div style="color: white">
-          Copyright © Arley Schenker, 2018
-        </div>
+    <!-- <div class="footer bg-primary text-center py-3"> -->
+        <!-- <div style="color: white"> -->
+          <!-- Copyright © Arley Schenker, 2018 -->
+        <!-- </div> -->
         <!-- Copyright -->
-        <ul class="list-unstyled list-inline">
+        <!-- <ul class="list-unstyled list-inline">
             <a target="_blank" href="mailto:akschenker@gmail.com"><img id="footer" src="images/email-white.svg"></a>
             <a target="_blank" href="https://www.github.com/akschenker"><img  id="footer" src="images/github-white.svg"></a>
             <a target="_blank" href="https://www.linkedin.com/in/arleyschenker"><img id="footer" src="images/linkedin-white.svg"></a>
             <a target="_blank" href="SchenkerResume.pdf"><img id="footer" src="images/noun_profile_1556747.svg"></a>
-        </ul>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </ul> -->
+    <!-- </div>
+  </div> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,6 +1,19 @@
 body {
-  font-family: 'Avenir', 'Roboto', sans-serif;
   background-color: lavender;
+}
+
+h1, h2, h3 {
+  font-family: 'Arvo', 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-brand {
+  font-family: 'Arvo', sans-serif;
+  font-size: 18px;
 }
 
 a:hover {
@@ -12,14 +25,15 @@ ul > #main {
   padding: 5%;
 }
 
-img#footer {
-  width: 65px;
-  padding: 15px 15px 15px 20px;
+.lead {
+  padding: 10px 150px 0px;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 nav {
-  padding-top: 8px !important;
-  padding-bottom: 8px !important;
+  font-family: "Arvo", sans-serif;
+  font-size: 13px;
 }
 
 .footer {
@@ -39,47 +53,12 @@ a.navbar-brand:hover {
   color: #ccb3ff !important;
 }
 
-p {
-  font-size: 16px;
-}
-
-#bio-image {
+/* #bio-image {
   padding-bottom: 20px;
-}
+} */
 
-#WebVis img, #FarmMarkets img, #biodiv img, #air img {
-  overflow: hidden;
-  width: 300px;
-  transition: 500ms;
-}
-
-#WebVis p, #FarmMarkets p, #biodiv p, #air p {
-  opacity: 0;
-  height: 0%;
-  transition: opacity 500ms, height 500ms;
-}
-
-#WebVis, #FarmMarkets, #biodiv, #air {
-  height: 300px;
-  transition: height 500ms;
-}
-
-#WebVis:hover img, #FarmMarkets:hover img, #biodiv:hover img, #air:hover img {
-  overflow: visible;
-  width: 100%;
-}
-
-#WebVis:hover p, #FarmMarkets:hover p, #biodiv:hover p, #air:hover p {
-  opacity: 1;
-  height: 150px;
-}
-
-#WebVis:hover, #FarmMarkets:hover, #biodiv:hover, #air:hover {
-  height: 600px;
-}
-
-#bio {
+/* #bio {
   padding: 20px 10px 0px 0px;
   background-color: #a793d2;
   color: lavender;
-}
+} */
