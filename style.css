@@ -53,6 +53,10 @@ a.navbar-brand:hover {
   color: #ccb3ff !important;
 }
 
+#FarmMarketLarge {
+  height: 500px;
+}
+
 /* #bio-image {
   padding-bottom: 20px;
 } */
